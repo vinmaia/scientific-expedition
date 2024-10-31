@@ -4,7 +4,7 @@ import expedition_route from "../http:/routers/expedition-route.js";
 import species_route from "../http:/routers/species-route.js";
 
 const express = require("express");
-const connectDB = require("./src/db/mongo-conection.js");
+const connectDB = require("../mongo-conection.js");
 
 const app = express();
 const PORT = process.env.PORT || 8000;
